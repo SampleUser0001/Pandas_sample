@@ -35,5 +35,6 @@ class TestUtil(unittest.TestCase):
             s.split(2)
 
     def test_Environment(self):
+        
         logger.info(f'ImportEnvKeyEnum.SAMPLE.value : {ImportEnvKeyEnum.SAMPLE.value}')
         self.assertEqual(ImportEnvKeyEnum.SAMPLE.value, 'test')
